@@ -1,0 +1,47 @@
+#nav{
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  body
+  {
+    background-image: url('../img/white_bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+  }
+
+  #box
+  {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* padding: 20px;
+    border-radius: 10px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  h4, h5{
+    color: #003366;
+  }
+
+  p, #ul
+  {
+    color: #333333;
+  }
+
+  #padding{
+    height: 66px;
+  }
+
+  @media (max-width: 575.98px) { 
+    p, #ul{
+      font-size: 13px;
+    }
+    h5{
+      font-size: 1.1rem;
+    }
+
+  }

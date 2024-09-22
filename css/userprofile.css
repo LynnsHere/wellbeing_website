@@ -1,0 +1,25 @@
+
+body{
+    background-image: url('../img/white_bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+  }
+  
+  #nav{
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .padding{
+      padding: 60px;
+  }
+  
+  .profilebox{
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      height: 400px;
+  }

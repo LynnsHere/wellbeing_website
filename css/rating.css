@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('../img/white_bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; 
+}
+
+
+#nav{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+* {
+font-family: Arial, sans-serif;
+}
+
+.stars {
+display: flex;
+justify-content: center;
+transform: translate(0%,0%) rotateY(180deg);
+}
+
+.stars input {
+display: none;
+}
+
+.stars label {
+font-size: 2rem;
+color: grey;
+cursor: pointer;
+transition: color 0.2s ease;
+}
+
+.stars input:checked ~ label,
+.stars label:hover,
+.stars label:hover ~ label {
+color: skyblue;
+}
+
+.rating-score {
+margin-top: 10px;
+}
+
+.happinessborder,.workloadborder,.anxietyborder{
+    background-color: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+.padding{
+    padding: 50px;
+}
+@media (max-width: 575.98px) {
+    .padding{
+        padding: 50px;
+    }
+}
